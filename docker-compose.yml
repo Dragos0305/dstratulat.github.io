@@ -1,0 +1,7 @@
+services:
+  docs:
+    build: .
+    image: dstratulat-docs:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped

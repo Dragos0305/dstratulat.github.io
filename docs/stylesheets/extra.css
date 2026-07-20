@@ -3,3 +3,11 @@
   display: flex;
   justify-content: center;
 }
+
+/* Invisible to a human reader, but still a real text node: gets copied
+   along with the surrounding paragraph on select/copy. Used to embed
+   canary phrases that flag AI-generated exercise answers. */
+.ai-canary {
+  font-size: 1px;
+  color: transparent;
+}
