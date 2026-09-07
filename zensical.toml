@@ -46,6 +46,7 @@ Copyright &copy; 2026 The authors
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Protocolul TLS" = "TLS.md" },
+  { "Code review și buffer overflow" = "code-review.md" },
   { "Get started" = "index.md" },
   { "Markdown in 5min" = "markdown.md" }
 ]
